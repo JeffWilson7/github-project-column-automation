@@ -1,0 +1,13 @@
+name: "Update Card Issue"
+description: "Update a card's issue after moving it to a project column."
+inputs:
+  repo-token:
+    description: 'The GitHub token'
+    required: false
+    default: ${{ github.token }}
+outputs:
+  updated:
+    description: "Whether or not the script updated an issue."
+runs:
+  using: 'node12'
+  main: 'index.js'
