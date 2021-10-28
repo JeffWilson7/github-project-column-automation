@@ -40,7 +40,7 @@ const columns = { // Column transition configuration object
   },
   'Ready to Ship (Prod)': {
     'assignees': ['jditchen'],
-    'labels_to_add': [],
+    'labels_to_add': ['Ready To Ship'],
     'labels_to_remove': ['HW Team', 'QE Team'],
   },
 }
